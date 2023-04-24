@@ -9,6 +9,7 @@ import JustAnotherCounter from '../Hooks/JustAnotherCounter';
 import FavoriteColor from '../Hooks/vidu3';
 import LoginForm from '../Hooks/LoginForm';
 import Car from '../Hooks/bai4';
+import FormChange from '../Hooks/FormChange';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
     <Header />
     {/* this is content area */}
     {/* <Content/> */}
-    <JustAnotherCounter></JustAnotherCounter>
-    <FavoriteColor></FavoriteColor>
+    {/* <JustAnotherCounter></JustAnotherCounter> */}
+    {/* <FavoriteColor></FavoriteColor> */}
     {/* <LoginForm></LoginForm> */}
+    <FormChange></FormChange>
     <Car></Car>
     {/* footer content */}
     <Footer/>

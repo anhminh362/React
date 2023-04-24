@@ -17,11 +17,16 @@ export default function Car(){
         year: 1964,
         color: 'red'  
     })
+    const updateColor=()=>{
+        setCar(previousState =>{
+            return {...previousState, color:"blue"}
+        })
+    }
     return(
         <>
         <h1>It is my {car.brand} car</h1>
         <p>It is a {car.color} {car.model} from {car.year}</p>
-        {/* <button onClick={setCar.color('blue')}></button> */}
+        <button onClick={updateColor}>change color to blue</button>
         </>
     )
 }
